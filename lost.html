@@ -1,0 +1,19 @@
+<!doctype html>
+<script src="code/canvas.js"></script>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+
+<body onload="displayText('CRAP! You killed me. DAMN HUMANS.\n\n\nClick to play again.', 225, 15)">
+  <div id="header">
+  	<h1 id="bullshit"></h1>
+  </div>
+
+  <canvas id="myCanvas" width="600" height="450" onclick="start()"></canvas>
+
+<audio controls autoplay loop>
+		<source src="dead.mp3" type="audio/mpeg">
+	</audio>
+
+</body>
